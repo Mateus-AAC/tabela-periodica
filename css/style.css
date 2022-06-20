@@ -1,0 +1,117 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+main{
+    width: 1170px;
+    margin: 20px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(18,60px);
+    grid-template-rows: repeat(10, 60px);
+}
+
+main > div {
+    border-radius: 5px;
+    background-color: #ec8a80;
+    width: 60px;
+}
+
+main> div > span {
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+main > div > h1{
+   margin: auto;
+   text-align: center;
+   font-size: 20px;
+}
+
+main > div:nth-child(2){
+    grid-column-start: 18;
+}
+
+main > div:nth-child(5){
+    grid-column-start: 13;
+}
+
+main > div:nth-child(13){
+    grid-column-start: 13;
+}
+
+main > div:nth-child(57){
+    grid-column-start: 4;
+}
+
+main > div:nth-child(74){
+    grid-column-start: 4;
+}
+
+main > div:nth-child(89){
+    grid-column-start: 1;
+    grid-column-end: 19;
+}
+
+main > div:nth-child(90){
+    grid-column-start: 4;
+}
+
+main > div:nth-child(105){
+    grid-column: 4;
+}
+
+.linha {
+    background-color: white;
+}
+
+/*personalizando os elementos quimicos*/
+
+div[class="hidrogenio"], [class="Carbono"], [class="nitrogenio"], [class="oxigenio"],
+[class="fosforo"], [class="enxofre"], [class="selenio"]{
+    background-color: rgb(11, 177, 11);
+}
+
+div[class="Helio"], [class="neonio"], [class="Argonio"], [class="criptonio"], [class="xenonio"],
+[class="radonio"], [class="oganessonio"] {
+    background-color: rgb(11, 11, 240);
+}
+
+div[class="Litio"], [class="sodio"], [class="Potassio"], [class="rubidio"], [class="cesio"],
+[class="francio"] {
+    background-color: orange;
+}
+
+div[class="Berilio"], [class="magnesio"], [class="calcio"], [class="estroncio"], [class="bario"], [class="radio"] {
+    background-color: yellow;
+}
+
+div[class="Boro"], [class="silicio"], [class="germanio"], [class="arsenio"], [class="antimonio"], [class="telurio"],
+[class="polonio"] {
+    background-color: #3399CC;
+}
+
+div[class="aluminio"], [class="galio"], [class="indio"], [class="talio"], [class="nihonio"], [class="flerovio"],
+[class="moscovio"], [class="livermorio"], [class="bismuto"], [class="estanho"], [class="chumbo"] {
+    background-color: rgb(103, 103, 253);
+}        
+
+div[class="fluor"], [class="Cloro"], [class="bromo"], [class="iodo"], [class="astato"], [class="tenessino"] {
+    background-color: rgb(51, 51, 226);
+}
+
+div[class="lantanio"], [class="cerio"], [class="praseodimio"], [class="neodimio"], [class="promecio"], [class="samario"], 
+[class="europio"], [class="gadolinio"], [class="terbio"], [class="Disprosio"], [class="holmio"], [class="erbio"], [class="tulio"],
+[class="iterbio"], [class="lutecio"] {
+    background-color: rgba(47, 47, 236, 0.774);
+}
+
+div[class="Actinio"], [class="torio"], [class="protactinio"], [class="uranio"], [class="netunio"], [class="plutonio"], [class="americio"],
+[class="curio"], [class="berquelio"], [class="californio"], [class="einstenio"], [class="fermio"], [class="mendelevio"], [class="nobelio"], [class="laurencio"] {
+    background-color: blueviolet;
+} 
+
